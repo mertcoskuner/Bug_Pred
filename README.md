@@ -1,3 +1,3 @@
-<p align="left"><b>🐞 Bug Prediction and Triage Automation</b><br>
+
 Developed a machine learning pipeline to automate bug triage by classifying bug report severity based on textual summaries. The approach leveraged supervised learning on a pre-labeled dataset, incorporating extensive text preprocessing steps including lowercasing, tokenization, stopword removal, lemmatization, and stemming to enhance input quality. Sentence-BERT embeddings were utilized to convert textual data into meaningful vector representations. Various models such as XGBoost, Random Forest, and SVM were trained and evaluated, with hyperparameter optimization conducted via RandomizedSearchCV to maximize performance. The model was benchmarked in a Kaggle competition, achieving strong accuracy results compared to other participants.
 </p>
